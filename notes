@@ -1,0 +1,32 @@
+n [1]: from even_digits import is_microwave
+
+In [2]: [ x for x in range(1000) if is_microwave(x) ]
+Out[2]: [1]
+
+In [3]: [ x for x in range(10000) if is_microwave(x) ]
+Out[3]: [1]
+
+In [4]: [ x for x in range(100000) if is_microwave(x) ]
+Out[4]: [1]
+
+In [5]: from even_digits import counts
+
+In [6]: counts(129)
+Out[6]: [2, 6, 3, 3, 2, 3, 3, 3, 2, 2]
+
+In [7]: from even_digits import multiples
+
+In [8]: multiples(129)
+Out[8]: [129, 258, 387, 516, 645, 774, 903, 1032, 1161]
+
+In [9]: multiples(1299)
+Out[9]: [1299, 2598, 3897, 5196, 6495, 7794, 9093, 10392, 11691]
+
+In [10]: multiples(12999)
+Out[10]: [12999, 25998, 38997, 51996, 64995, 77994, 90993, 103992, 116991]
+
+In [11]: counts(12999)
+Out[11]: [2, 6, 3, 3, 2, 3, 3, 3, 2, 20]
+
+In [12]: 
+
